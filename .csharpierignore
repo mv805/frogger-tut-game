@@ -1,0 +1,10 @@
+# Ignore project files (XML format, not C#)
+*.csproj
+
+# Ignore other non-C# files
+*.json
+*.yml
+*.yaml
+*.md
+*.txt
+*.sln
