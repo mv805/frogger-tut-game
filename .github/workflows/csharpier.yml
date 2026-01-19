@@ -1,0 +1,23 @@
+name: CSharpier
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore tools
+        run: dotnet tool restore
+
+      - name: Run CSharpier check
+        run: dotnet csharpier --check .
