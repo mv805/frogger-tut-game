@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bi0fyefalviy8"]
 
-[ext_resource type="Script" uid="uid://uuidc7dtubmu" path="res://scenes/Title.cs" id="1_pyl7j"]
+[ext_resource type="Script" uid="uid://uuidc7dtubmu" path="res://Title.cs" id="1_pyl7j"]
 [ext_resource type="FontFile" uid="uid://dr201ov4c76pb" path="res://fonts/Crackman.otf" id="2_b3w7a"]
 [ext_resource type="Texture2D" uid="uid://bkgrir378horu" path="res://graphics/player/player_simple.png" id="3_4rr2b"]
 [ext_resource type="FontFile" uid="uid://hqpa84d2dqvp" path="res://fonts/Better VCR 9.0.1.ttf" id="4_yql1r"]
