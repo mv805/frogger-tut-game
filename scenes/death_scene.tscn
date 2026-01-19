@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl00e66fbh5w3"]
+
+[ext_resource type="FontFile" uid="uid://hqpa84d2dqvp" path="res://fonts/Better VCR 9.0.1.ttf" id="1_3idvb"]
+
+[node name="DeathScene" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.2784314)
+
+[node name="DeathNotice" type="Label" parent="."]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -38.0
+offset_top = 217.0
+offset_right = 38.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_3idvb")
+theme_override_font_sizes/font_size = 50
+text = "YOU DIED"
+
+[node name="PromptContinue" type="Label" parent="."]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -216.0
+offset_top = -286.0
+offset_right = 216.0
+offset_bottom = -253.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_3idvb")
+theme_override_font_sizes/font_size = 25
+text = "PRESS SPACE TO CONTINUE"
